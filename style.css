@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Alef&subset=hebrew');
+            header,footer,nav,article{display:block;}
+            body{font-family:'Alef',alef,david;font-size:20px;margin:0px;}
+            h1{font-weight:200;font-size:64px;font-family:frankRuehl;margin:10px 0px;}
+            @media (max-width:1027px) { h1 {font-size:60px;} }
+            @media (max-width:960px) { h1 {font-size:40px;} }
+            @media (max-width:726px) { h1 {font-size:40px;} }
+            @media (max-width:573px) { h1 {font-size:30px;} body{font-size:15px;} }
+            header{padding:10px 10px;background-color:#ddd;}
+            header #brand img{display:inline;vertical-align:middle;}
+            header #brand {text-decoration:none;color:black;}
+            @media (min-width:70ex) { article {width:60ex; margin:0px 14%; margin: 0px calc((100vw - 60ex)/2);}}
+            @media (max-width:70ex) { article {margin:0; margin-right:3vw; width:80vw}}
+            header nav{display:inline;margin-right:10px;}
+            nav ul{
+                display:inline;
+                list-style-type:none;
+                margin:0; padding:0;
+            }
+            nav ul li{
+                display:inline;
+            }
+            article nav ul{
+                display:block;
+            }
+            article nav ul li{
+                display:block;
+                color:white;
+                background-color:black;
+                width:100%;
+                text-align:center;
+                margin-bottom:10px;
+                padding:5px;
+            }
+            article nav ul a{
+                text-decoration:none;
+            }
+            article nav ul a:hover li, article nav ul a:focus li{
+                color:black;
+                background-color:white;
+                text-decoration:underline;
+            }
+            article nav ul a:visited li{
+                color:purple;
+                background-color:white;
+            }
+            footer{
+                margin-top:200px;
+                background-color:black;
+                color:white;
+                padding:20px;
+            }
+            footer a{
+                color: white;
+                text-decoration:underline;
+            }
