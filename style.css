@@ -10,7 +10,7 @@
             header #brand img{display:inline;vertical-align:middle;}
             header #brand {text-decoration:none;color:black;}
             @media (min-width:70ex) { article {width:60ex; margin:0px 14%; margin: 0px calc((100vw - 60ex)/2);}}
-            @media (max-width:70ex) { article {margin:0; margin-right:3vw; margin-left:3vw; max-width:94vw}}
+            @media (max-width:70ex) { article {margin:0; margin-right:4vw; max-width:90vw}}
             header nav{display:inline;margin-right:10px;}
             nav ul{
                 display:inline;
